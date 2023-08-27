@@ -30,3 +30,23 @@ def fibonachi(n, data):
 
     
 fibonachi(n,data)
+
+
+# def fibonachi_find(n):
+#     n1 = 0
+#     n2 = 1
+#     res = 0
+#     counter = 2
+#     while res < n:
+#         res = n1 + n2
+#         n1 = n2
+#         n2 = res
+#         counter += 1
+#     if res == n:
+#         return counter
+#     else:
+#         return (f"Вы ввели число не из ряда фибоначи, ближайшее число {n1}")
+
+
+# n = int(input('Введите число ->'))
+# print(fibonachi_find(n))
