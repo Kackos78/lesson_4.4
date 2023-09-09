@@ -39,7 +39,7 @@ def diff_num(num):
 
 
 k = 3000
-res = [(diff_num(m), m)for m in range(k) if diff_num(diff_num(m)) ==m  and diff_num(m)>m]
+res = [(diff_num(m), m)for m in range(k) if diff_num(diff_num(m)) == m  and diff_num(m)>m]
 
     
 print(res)
