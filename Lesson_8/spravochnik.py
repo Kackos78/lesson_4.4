@@ -4,6 +4,7 @@ import json
 
 phones_sp = {'дядя коля': {'номер телефона': ['8-800-555-35-35', '8-900-536-35-35'], 'город': 'Сыктыфкар', 'Статус': 'дядя'}, 'нюрка': {'номер телефона': ['8-555-549-34-35'], 'город': 'Сыктыфкар', 'Статус': 'тетя'}}
 
+
 def save():
     with open('phones.json','w', encoding='utf-8') as phones:
         phones.write(json.dumps(phones_sp, ensure_ascii=False))
